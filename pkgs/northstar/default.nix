@@ -29,6 +29,8 @@ pkgs.stdenv.mkDerivation (finalAttr: {
     cp -r ${mods}/* $out/R2Northstar/mods/
     cp -r ${launcher}/* $out/
     cp -r ${northstar-stubs}/bin/* $out/bin/x64_dedi
+    mv $out/Northstar.dll $out/R2Northstar/Northstar.dll
+    mv $out/Northstar.pdb $out/R2Northstar/Northstar.pdb
 
     cp -r ${northstar-repo}/release/LEGAL.txt $out/LEGAL.txt
     cp -r ${northstar-repo}/release/r2ds.bat $out/r2ds.bat
