@@ -1,4 +1,3 @@
-
 name: Northstar Nightly
 
 on:
@@ -56,13 +55,14 @@ jobs:
         run: |
           mkdir upload
           cp -r result/* upload/
-          tar -czf northstar-nightly.tar.gz -C upload .
+          cd upload
+          zip -r ../northstar-nightly.zip .
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: northstar-nightly
-          path: northstar-nightly.tar.gz
+          path: northstar-nightly.zip
 
       - name: Generate tag
         id: tag
@@ -79,4 +79,4 @@ jobs:
           body: |
             This is a nightly release of northstar
             It's unstable compared to the official releases, **use it with caution**!
-          files: northstar-nightly.tar.gz
+          files: northstar-nightly.zip
