@@ -8,7 +8,7 @@ on:
 
 jobs:
   make-nightly-release:
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
@@ -22,7 +22,8 @@ jobs:
         with:
           # We don't enable ca-derivations here
           # because we have later jobs where ca-derivations is enabled.
-          nix_conf: ${{ env.nix_conf }}
+          nix_conf: |
+            experimental-features = nix-command flakes
 
       - name: Restore and save Nix store
         uses: nix-community/cache-nix-action@v6
