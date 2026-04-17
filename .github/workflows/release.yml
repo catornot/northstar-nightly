@@ -75,6 +75,7 @@ jobs:
           tag_name: nightly
           name: Nightly ${{ steps.tag.outputs.tag }}
           draft: false
+          prerelease: false
           body: |
             This is a nightly release of northstar
             It's unstable compared to the official releases, **use it with caution**!
