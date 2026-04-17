@@ -51,22 +51,21 @@ jobs:
       - name: Build
         run: nix build .#northstar
 
+      - name: Generate tag
+        id: tag
+        run: echo "tag=nightly-$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+
       - name: Prepare artifact
         run: |
           mkdir upload
-          cp -r result/* upload/
-          cd upload
-          zip -r ../northstar-nightly.zip .
+          cp -rL result/* upload/
+          zip -r northstar-${{ steps.tag.outputs.tag }}.zip upload
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: northstar-nightly
-          path: northstar-nightly.zip
-
-      - name: Generate tag
-        id: tag
-        run: echo "tag=nightly-$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+          path: northstar-${{ steps.tag.outputs.tag }}.zip
 
       - name: Update Nightly Release
         uses: andelf/nightly-release@v1
@@ -79,4 +78,4 @@ jobs:
           body: |
             This is a nightly release of northstar
             It's unstable compared to the official releases, **use it with caution**!
-          files: northstar-nightly.zip
+          files: northstar-${{ steps.tag.outputs.tag }}.zip
