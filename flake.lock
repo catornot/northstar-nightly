@@ -63,11 +63,11 @@
     "mods": {
       "flake": false,
       "locked": {
-        "lastModified": 1774910586,
-        "narHash": "sha256-hE89aJczHPMAtkdp5nrvHJ4u1fnmNbKU31xnMs6M10o=",
+        "lastModified": 1776679150,
+        "narHash": "sha256-b+jrWnofGqqvGC+XSrK62t5HZ/BnRLWXdHMx0rBemJA=",
         "owner": "R2Northstar",
         "repo": "NorthstarMods",
-        "rev": "3fd98cad1277a5ecbf0db7c16f999fae3d2e0f58",
+        "rev": "d9c9d2b85fdd03575e0fc2e34ffa96caf381f1ce",
         "type": "github"
       },
       "original": {
