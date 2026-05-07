@@ -42,14 +42,15 @@
       "inputs": {
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs_2",
+        "nixpkgs-24-11": "nixpkgs-24-11",
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1776397978,
-        "narHash": "sha256-qr/nHKP7CfhJdrDTRA21GkNHnYfD7Wa+mNam27wKLT0=",
+        "lastModified": 1778105270,
+        "narHash": "sha256-Ccspd6kI7bBZnZ7tcgvCk4E71dG6JYIAV2wP634YQHc=",
         "ref": "refs/heads/main",
-        "rev": "2d33ed9b19528adb06cb51291903de918911eeee",
-        "revCount": 762,
+        "rev": "64a7735c5722fd221c9894a63c6ec338ac6324fe",
+        "revCount": 765,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/R2Northstar/NorthstarLauncher.git"
@@ -63,11 +64,11 @@
     "mods": {
       "flake": false,
       "locked": {
-        "lastModified": 1777893784,
-        "narHash": "sha256-gjOluiXd8YKVoahKWJ4+Wyd92q6+qtbsxTwQcCSKiuo=",
+        "lastModified": 1778090893,
+        "narHash": "sha256-2KKE2w7D2dc6xcTbxMM2XZeepVJSmjUGDCsS1hUls6w=",
         "owner": "R2Northstar",
         "repo": "NorthstarMods",
-        "rev": "84ce2090c6b90aa551e2f5151e2d1e0359817b3e",
+        "rev": "7c81044c4b8911b35f5fb47c5d3e8793c1c22d39",
         "type": "github"
       },
       "original": {
@@ -88,6 +89,22 @@
       "original": {
         "owner": "nixos",
         "ref": "nixos-24.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-24-11": {
+      "locked": {
+        "lastModified": 1731603435,
+        "narHash": "sha256-CqCX4JG7UiHvkrBTpYC3wcEurvbtTADLbo3Ns2CEoL8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "8b27c1239e5c421a2bbc2c65d52e4a6fbf2ff296",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "24.11",
         "repo": "nixpkgs",
         "type": "github"
       }
