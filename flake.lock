@@ -46,11 +46,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1778373055,
-        "narHash": "sha256-CmhKb6hQfJedy+XXDGnpzqVg8zLt/r9ZZmiUjDI27iI=",
+        "lastModified": 1779131826,
+        "narHash": "sha256-W7BqEkARwQHBbAiRxU/i+AzhPDfDbVmA9r+nnicuMgE=",
         "ref": "refs/heads/main",
-        "rev": "39d5570c7670e2bf7189ec0eb86db1e04ddc39d9",
-        "revCount": 766,
+        "rev": "fad19af91972aaa841fe9950ec9e339bfdb29e0b",
+        "revCount": 767,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/R2Northstar/NorthstarLauncher.git"
