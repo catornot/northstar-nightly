@@ -19,10 +19,11 @@ jobs:
       - name: Install Nix
         uses: nixbuild/nix-quick-install-action@v34
         with:
-          # We don't enable ca-derivations here
-          # because we have later jobs where ca-derivations is enabled.
           nix_conf: |
             experimental-features = nix-command flakes
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+            extra-substituers = https://attic.catornot.net/northstar https://nix-community.cachix.org
+            extra-trusted-public-keys = northstar:H8QBUAeduEw6jGl3HtGeW/79pMPv7wSCAv8BSUon3kw= nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs=
 
       - name: Restore and save Nix store
         uses: nix-community/cache-nix-action@v6
