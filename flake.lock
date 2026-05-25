@@ -7,11 +7,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1759092798,
-        "narHash": "sha256-ikJFPeH5ei246BEbiFN+5io5NJ8jxi6JTM2SBg0U53E=",
+        "lastModified": 1779590042,
+        "narHash": "sha256-fqsbs3EeAdCV4oF8DRIq7Y6U+It4BPmuOWYl/5Tjy3Y=",
         "owner": "R2Northstar",
         "repo": "NorthstarDiscordRPC",
-        "rev": "41cf32d9c2dc5d31f4872369f38ee95b9064a634",
+        "rev": "3d836fe976511b1a0d311fe44ff6fb1ed149cda8",
         "type": "github"
       },
       "original": {
@@ -46,11 +46,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1779131826,
-        "narHash": "sha256-W7BqEkARwQHBbAiRxU/i+AzhPDfDbVmA9r+nnicuMgE=",
+        "lastModified": 1779542978,
+        "narHash": "sha256-0Q4a4mRLoA4PDlZcgGASISlcTeKI2VciTHUUKLLFPMo=",
         "ref": "refs/heads/main",
-        "rev": "fad19af91972aaa841fe9950ec9e339bfdb29e0b",
-        "revCount": 767,
+        "rev": "0075d671d1b07d0e9e5a4c2ac724a61c044e2646",
+        "revCount": 768,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/R2Northstar/NorthstarLauncher.git"
