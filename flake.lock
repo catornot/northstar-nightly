@@ -7,11 +7,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1779590042,
-        "narHash": "sha256-fqsbs3EeAdCV4oF8DRIq7Y6U+It4BPmuOWYl/5Tjy3Y=",
+        "lastModified": 1779925399,
+        "narHash": "sha256-FIv4PpQU0LKwzQngR1eG9dc9eYAimAEugsg6Uhx8uTs=",
         "owner": "R2Northstar",
         "repo": "NorthstarDiscordRPC",
-        "rev": "3d836fe976511b1a0d311fe44ff6fb1ed149cda8",
+        "rev": "da315430d84a3947f30c54419dc64c1b1b2e6be9",
         "type": "github"
       },
       "original": {
