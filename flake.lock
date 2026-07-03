@@ -46,11 +46,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1780432298,
-        "narHash": "sha256-59ghejVKryMJ6qSwOkemVpIcmLnEEU/KcZ/woIf9Hvc=",
+        "lastModified": 1783041850,
+        "narHash": "sha256-vLUM2XndI/WaCuQpKcBbxh/kJgHL71/KhY6Zix0wNSU=",
         "ref": "refs/heads/main",
-        "rev": "9430cef24007a9354b1eea6b53a6f3e148bf8edd",
-        "revCount": 771,
+        "rev": "48f35600771b1631aa7980642816e916cbb2213f",
+        "revCount": 772,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/R2Northstar/NorthstarLauncher.git"
@@ -64,11 +64,11 @@
     "mods": {
       "flake": false,
       "locked": {
-        "lastModified": 1780622858,
-        "narHash": "sha256-EpryDR3MdG+WKZXK6gp9LJ//3iaQjuGq9fCu8FLHq9Y=",
+        "lastModified": 1783043123,
+        "narHash": "sha256-hUeQgfQ4k8+q/ATQ93TPZm/ZKD2tYAC/2zcQjF0PJTE=",
         "owner": "R2Northstar",
         "repo": "NorthstarMods",
-        "rev": "f2a6cdd14a71cb4b681b9d1f6c5aa8a6c5fd73ea",
+        "rev": "73feccbafced9f377921ef6a3f585e142a8cd0e9",
         "type": "github"
       },
       "original": {
