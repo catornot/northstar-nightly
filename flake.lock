@@ -6,11 +6,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1785906031,
-        "narHash": "sha256-VcPDZprPz9wwXxp/LrByK/rvnxW6qhR98MK0aHr9qmM=",
+        "lastModified": 1785916714,
+        "narHash": "sha256-IFwzeHekKwDZ+s/JjcTdW0ETqcxGwHOhq8CeY/aTo4M=",
         "owner": "R2Northstar",
         "repo": "NorthstarDiscordRPC",
-        "rev": "3a121647e1bdc2dd044be5048a7a274cdf31cbef",
+        "rev": "0581ba83afa24e06d347b941d2746cc5b1cdea3e",
         "type": "github"
       },
       "original": {
@@ -45,11 +45,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1785901789,
-        "narHash": "sha256-coL7Vya4QjTmSnHlBgPR76/xLqv8gBy6kxbkGdx/7v0=",
+        "lastModified": 1786000684,
+        "narHash": "sha256-R6suapGEIEgMBg7azVvZt9MFbwa72gQrSyf/EOeXxuk=",
         "ref": "refs/heads/main",
-        "rev": "4df8857814dd683147f1cc5fdae0b3b419a7f1cf",
-        "revCount": 774,
+        "rev": "edbd89f636383cbac4f03e694965684cc325b6e0",
+        "revCount": 775,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/R2Northstar/NorthstarLauncher.git"
@@ -63,11 +63,11 @@
     "mods": {
       "flake": false,
       "locked": {
-        "lastModified": 1784159602,
-        "narHash": "sha256-7GOOeviBlfpG5VPWalnshkYOwrN5Kigg+M4/Fxm3s6Q=",
+        "lastModified": 1785945949,
+        "narHash": "sha256-/rgllgv2QlsB7LYP3m1T19t0x3QcRje5ytE4lzfLyAY=",
         "owner": "R2Northstar",
         "repo": "NorthstarMods",
-        "rev": "056a002b9f0051b5a205371c4e50273a3f9a0238",
+        "rev": "16e08921b7d8888439e0fdae388e67295205827a",
         "type": "github"
       },
       "original": {
