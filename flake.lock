@@ -157,16 +157,17 @@
     "northstar-repo": {
       "flake": false,
       "locked": {
-        "lastModified": 1791777971,
-        "narHash": "sha256-9ry01klYpkBbD96PAoeq12dbrWl0NCyMgaXbwuMHHkQ=",
+        "lastModified": 1786348626,
+        "narHash": "sha256-q8t7YRBLbp6bo0zvpbNb3CPQl4Y/sZ2ccVtzz/clh54=",
         "owner": "R2Northstar",
         "repo": "Northstar",
-        "rev": "809f2b5a338d75ad10a9e546fc7e4546ef2d5373",
+        "rev": "9341bba7aacd76586ea463d1e7dbcd10ddab72dc",
         "type": "github"
       },
       "original": {
         "owner": "R2Northstar",
         "repo": "Northstar",
+        "rev": "9341bba7aacd76586ea463d1e7dbcd10ddab72dc",
         "type": "github"
       }
     },

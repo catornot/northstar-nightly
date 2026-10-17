@@ -8,7 +8,7 @@
       flake = false;
     };
     northstar-repo = {
-      url = "github:R2Northstar/Northstar";
+      url = "github:R2Northstar/Northstar/9341bba7aacd76586ea463d1e7dbcd10ddab72dc";
       flake = false;
     };
     launcher.url = "git+https://github.com/R2Northstar/NorthstarLauncher.git?submodules=1";
